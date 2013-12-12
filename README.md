@@ -24,3 +24,7 @@ sudo docker run -i -p 80:80 -name rails -v /mnt/hgfs/project/rails/src:/var/www/
 ## VirtualBox / Vagrant folder mapping and container linking
 
 sudo docker run -i -privileged -p 80:80 -name rails -v /vagrant/rails/src:/var/www/project -link pgsql:pgsql -link redis:redis -t project/rails /bin/bash
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/nonsense/docker-rails/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
